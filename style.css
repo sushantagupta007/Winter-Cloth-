@@ -1,0 +1,137 @@
+
+body{
+    box-sizing: border-box;
+    padding: 0rem;
+    margin:0rem;
+    font-family: 'Bebas Neue', cursive;
+ 
+}
+header{
+    background: #FFFBF0;
+}
+.companyLogo{
+   width:14.0625rem;
+   height:1.9375rem;
+}
+.themeTitle{
+    line-height: 2rem;
+}
+.themeTitle h1{
+    color:#FABE4C;
+    font-size: 4rem;
+    line-height: 5rem;
+    font-weight: bold;
+    letter-spacing: -0.2rem;
+}
+.themeTitle h1 span{
+    color:#363958;
+}
+.themeTitle p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color:#3E3E3E;
+}
+#buyNowButton{
+    width:10.625rem;
+    height:3.75rem;
+    padding:18px 33px 18px 34px;
+    font-size: 1rem;
+    font-weight: 500;
+    color:#ffffff;
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    border-radius: 10px;
+    box-sizing: border-box;
+    }
+
+.themeImage img{
+    width:100%;
+    height:auto;
+}
+@media (min-width:310px){
+    .companyLogo{
+        width:12.046875rem;
+        height:1.625rem;
+    }
+    #buyNowButton{
+        width:50%;
+        height:2.75rem;
+        padding:9px 16px 9px 16px;
+        font-size: 0.75rem;
+        }
+     .price{
+         font-size: 15px;
+     }   
+    .themeTitle h1{
+        font-size: 3.5rem;
+    }
+}
+
+/* Main Section CSS */
+#Woman>h3,
+#Man>h3{
+    text-transform: uppercase;
+}
+
+.insideCardContainer{
+    padding:22px 21px 12px 20px;
+    border-radius: 20px;
+    background: #F1F1F1;
+    box-sizing: border-box;
+}
+
+
+/* .insideImageContainer img{
+    width:12.6875rem;
+    height:17.0625rem;
+} */
+#customCardDesign{
+    width: 100%; 
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px rgba(94, 58, 58, 0.05) !important;
+}
+#customCardTitle{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color:#363958;
+}
+.price{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FABE4C;
+}
+/* Footer */
+.sloganImage{
+    width:78px;
+    height:82px;
+}
+.sloganImage img{
+    width:100%;
+    height:auto;
+}
+#companySlogan h4{
+font-family:  'Roboto', sans-serif;
+    color:#363958;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+#companySlogan p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #3E3E3E;
+}
+
+#companyImage img{
+    width:100%;
+    height: auto;
+}
